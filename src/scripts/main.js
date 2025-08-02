@@ -3,13 +3,13 @@
 const wall = document.querySelector('.wall');
 const spider = wall.querySelector('.spider');
 
-const wallWidht = wall.clientWidth;
+const wallWidth = wall.clientWidth;
 const wallHeight = wall.clientHeight;
 
-const spiderWidht = spider.clientWidth;
+const spiderWidth = spider.clientWidth;
 const spiderHeight = spider.clientHeight;
 
-const coordinatesX = (wallWidht - spiderWidht) / 2;
+const coordinatesX = (wallWidth - spiderWidth) / 2;
 const coordinatesY = (wallHeight - spiderHeight) / 2;
 
 spider.style.top = `${coordinatesX}px`;
